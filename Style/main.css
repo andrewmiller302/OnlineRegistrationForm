@@ -1,0 +1,301 @@
+
+/*************************************
+Base Style
+**************************************/
+
+html{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:border-box;
+  box-sizing: border-box;
+}
+
+
+*, *:before, *:after{
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing:inherit;
+  box-sizing: inherit;
+}
+
+body{
+  font-family: 'Merriweather', serif;
+  margin: 0 auto;
+  font-size: 16px;
+  
+  
+}
+
+.wrapper{
+  max-width: 290px;
+  margin: 0 auto;
+}
+
+/*************************************
+Heading
+**************************************/
+
+.head{
+  text-transform: uppercase;
+  font-size: 1em;
+  text-align: center;
+  background-color: #2d3945;
+  color: aliceblue;
+  padding: 1.6em;
+  margin: 0 0 1em 0;
+  
+}
+
+.overview{
+  text-align: center;
+}
+
+.overview h2{
+  font-size: 1em;
+  color: #2d3945;
+  padding: 0 1em;
+    
+}
+
+.overview p{
+  font-size: .8em;
+  color: #55687A;
+  padding: 0 1em;
+}
+
+/**************************************
+Base Form
+***************************************/
+.newsletter{
+  border-top: solid;
+  padding: .9em;
+  margin-top: .3em;
+  
+}
+
+fieldset{
+  border: none;
+  margin: 0;
+  
+}
+
+/**************************************
+
+Contact Information
+**************************************/
+
+.topBorder{
+  border-top: thick double #2d3945;
+  padding: .3em;
+  width: 100%;
+  
+  
+}
+
+
+legend{
+  font-weight: bold;
+  color: #2d3945;
+  padding: .3em 0 .3em 0;
+  
+  
+}
+
+
+/***********************
+Contact Input & Labels
+***********************/
+label{
+  font-size: .9em;
+  color: #55687A;
+  
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select{
+  width: 260px;
+  height: 50px;
+  background-color: #eff0f1;
+  margin: 7px 0 7px 0;
+  color: #55687A;
+  border-radius: 3px;
+  border: none;
+  
+    
+}
+input[id="zip"]{
+  width: 140px;
+  background-color: #eff0f1;
+  color: #55687A;
+      
+}
+label[for="zip"]{
+  margin-right: 90px;
+}
+
+.state{
+  display:none;
+  }
+
+input::-webkit-input-placeholder{
+  
+  text-align: right;
+  font-style: italic;
+  font-family: 'Merriweather', serif;
+  font-size: .8em;
+  padding-right: 15px;
+}
+
+input::-moz-input-placeholder{
+  
+  text-align: right;
+  font-style: italic;
+  font-size: .8em;
+  font-family: 'Merriweather', serif;
+  padding-right: 15px;
+}
+
+input::-ms-input-placeholder{
+  
+  text-align: right;
+  font-style: italic;
+  font-size: .8em;
+  font-family: 'Merriweather', serif;
+  padding-right: 15px;
+}
+
+
+/*********************************
+focus
+**********************************/
+
+input:focus,
+select:focus{
+  background-color: #4ebbb5;
+  color: #FFF;
+}
+
+/***********************************
+Newsletter Sec
+***********************************/
+
+.newsLabel{
+  font-size: 9pt;
+    
+}
+
+input[type="checkbox"],
+input[type="radio"]{
+  background-color: #eff0f1;
+  margin: 10px 3px 10px 0;
+  color: #55687A;
+  
+  }
+
+
+textarea{
+  height: 90px;
+  width: 250px;
+  background-color: #eff0f1;
+  color: #55687A;
+  margin: auto;
+  padding: 0;
+  margin-top: 10px;
+  resize: none;
+  
+}
+
+button{
+  width: 250px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #4ebbb5;
+  font-size: 1em;
+  text-align: center;
+  color: #FFF;
+  font-family: 'Merriweather', serif;
+  border: none;
+  padding: 0;
+  margin: 20px 0 1px 0;
+  
+}
+
+/****************************
+footer
+****************************/
+
+footer{
+  font-style: italic;
+  text-align: center;
+  color: lightslategray;
+  padding: 0 10px;
+  font-size: .9em;
+}
+
+
+/***********************************
+Media 
+************************************/
+
+@media (min-width: 760px){
+  .wrapper{
+    max-width: 100%;
+  }
+  
+  .contactInfo{
+    max-width: 35em;
+    margin: auto;
+  }
+    
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select{
+  width: 70%;
+  height: 50px;
+ 
+  }
+input[id="zip"]{
+  width: 140px;
+  padding: 0;
+  
+}
+label[for="zip"]{
+  margin-right: 0;
+}
+
+.inputLabel{
+  display: inline-block; 
+  width: 28%;
+  text-align: left
+         
+  }
+input{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+        
+  }
+  
+  button{
+    width: 100%;
+    
+}
+textarea{  
+  width: 100%;    
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
